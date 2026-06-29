@@ -1,0 +1,11 @@
+# local package
+-e .
+
+cookiecutter
+dvc[s3]
+mlflow
+fastapi
+uvicorn
+boto3
+scikit-learn
+pandas
