@@ -2,9 +2,13 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 import joblib
 import os
+from fastapi import FastAPI
+from prometheus_fastapi_instrumentator import Instrumentator 
 
 app = FastAPI()
 
+# Initialize the instrumentator
+Instrumentator().instrument(app).expose(app)
 # Load the model and vectorizer from the model directory
 model_path = os.path.join("model", "model.pkl")
 vectorizer_path = os.path.join("model", "vectorizer.pkl")
