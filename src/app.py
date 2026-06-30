@@ -77,8 +77,8 @@ html_content = """
 </head>
 <body>
     <div class="container">
-        <h1>Sentiment Analyzer 3000</h1>
-        <p>Insert Quarter to Play... or just type below</p>
+        <h1>MOVIE REVIEW SENTIMENT ANALYZER</h1>
+        <p>Insert your movie review text below to analyze its sentiment</p>
         <textarea id="inputText" placeholder="ENTER TEXT HERE..."></textarea><br>
         <button onclick="analyzeText()">ANALYZE</button>
         <div id="result"></div>
