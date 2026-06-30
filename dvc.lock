@@ -23,3 +23,12 @@ stages:
       hash: md5
       md5: 57f99a79bbae9a03db12404a2947b002
       size: 1749
+    outs:
+    - path: model/model.pkl
+      hash: md5
+      md5: f370b921d8811e3fa1324b25319fa55d
+      size: 41007
+    - path: model/vectorizer.pkl
+      hash: md5
+      md5: 2e5e151311fbf6549d3b77085b721c55
+      size: 186801

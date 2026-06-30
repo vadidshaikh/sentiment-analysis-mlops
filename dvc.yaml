@@ -10,3 +10,6 @@ stages:
     deps:
       - src/train.py
       - data/raw/data.csv
+    outs:
+      - model/model.pkl
+      - model/vectorizer.pkl
